@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+    int a,c=0,b=1,show,i;
+    printf("enter the number of terms ");
+    scanf("%d",&a);
+    printf("%d+%d+",c,b );
+    i=2;
+    while(a>i)
+    {
+        show=c+b;
+        c=b;
+        b=show;
+        printf("%d+",show);
+        i++;
+    }
+    return 0;
+}
